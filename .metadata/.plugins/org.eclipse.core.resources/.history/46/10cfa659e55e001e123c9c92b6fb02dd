@@ -1,0 +1,16 @@
+package com.ublik.image.processor;
+
+public interface ImageIO {
+
+    /**
+     * Returns a new {@link String} that right-aligns the characters in the specified String by padding them with the
+     * specified char on the left, for a specified total length.
+     *
+     * @param stringToPad the {@link String} to be padded
+     * @param totalLength total length of the new {@link String}
+     * @return the padded {@link String}
+     */
+
+	String padLeft();
+
+}

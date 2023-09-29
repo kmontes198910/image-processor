@@ -1,0 +1,21 @@
+
+package com.ublik.imagenprocessor.imageio;
+
+/**
+ * Factory for creating instances of {@link ImageIO}.
+ */
+public final class ImageIOFactory {
+
+    private ImageIOFactory() {
+    }
+
+    /**
+     * Creates an instance of {@link ImageIO}.
+     *
+     * @return the new instance
+     */
+    public static ImageIO createImageIO() {
+        return new ImageIOImpl();
+    }
+
+}
