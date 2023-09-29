@@ -10,8 +10,8 @@ class ImageIOImplTest {
 
     @Test
     void padLeft() {
-        assertThat(imageIOImpl.padLeft())
-                .isEqualTo("");
+        assertThat(imageIOImpl.process())
+                .isEqualTo("Image");
     }
 
 }

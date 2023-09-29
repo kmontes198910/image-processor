@@ -6,8 +6,8 @@ class ImageIOImpl implements ImageIO {
     }
 
     @Override
-    public String padLeft() {
-        return "";
+    public String process() {
+        return "Image";
     }
 
 }
