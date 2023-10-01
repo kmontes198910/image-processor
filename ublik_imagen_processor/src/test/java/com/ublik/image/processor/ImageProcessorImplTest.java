@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class ImageIOImplTest {
+class ImageProcessorImplTest {
 
-    private final ImageIOImpl imageIOImpl = new ImageIOImpl();
+    private final ImageProcessorImpl imageIOImpl = new ImageProcessorImpl();
 
     @Test
     void padLeft() {
